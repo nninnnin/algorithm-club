@@ -1,7 +1,7 @@
 var divisorGame = function (N) {
   const DP = [];
   DP[1] = false;
-  
+
   function checkGameResult (num) {
     let result = false;
 
@@ -17,7 +17,7 @@ var divisorGame = function (N) {
 
       DP[num] = result;
     }
-    
+
     return result;
   }
 
